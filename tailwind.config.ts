@@ -8,9 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        primary: ["var(--font-inter)"],
+        title: ["var(--font-montserrat)"],
+        brusher: ["var(--font-act-of-rejection)"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "#EA2127",
+        },
+        secondary: {
+          DEFAULT: "#111111",
+          dark: "#000000",
+        },
+        bright: {
+          DEFAULT: "#F6F5F5",
+        },
+        typo: {
+          primary: "#EF5256",
+          "primary-dark": "#DE2A2F",
+          secondary: "#060606",
+          bright: "#FFFFFF",
+        },
       },
     },
   },
