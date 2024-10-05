@@ -2,14 +2,32 @@
 
 import Slider from "react-slick";
 import ProductCard from "./ProductCard";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const BannerWithProducts = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    async function getProducts() {
+      try {
+        const response = await axios.get("/data/banner-products.json");
+        setProducts(response.data);
+        console.log(response.data);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    getProducts();
+  }, []);
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     arrows: false,
   };
 
@@ -20,16 +38,16 @@ const BannerWithProducts = () => {
       </p>
 
       {/* Products */}
-      <div className="w-full overflow-hidden">
+      <div className="w-full">
         <div className="w-[1920px]">
+          {/* Carousel */}
+
           <div className="slider-container">
             <Slider {...settings}>
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
+              {products.length > 0 &&
+                products.map((product, index) => (
+                  <ProductCard key={index} product={product} />
+                ))}
             </Slider>
           </div>
         </div>

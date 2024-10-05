@@ -3,60 +3,60 @@
     "name": "Army Green Active Short Sleeve",
     "price": "34.95",
     "sale_price": "30.50",
-    "thumbnail": "/assets/images/img-17"
+    "thumbnail": "/assets/images/img-17.webp"
   },
   {
     "name": "Navy Blue Sports Jacket",
     "price": "89.99",
     "sale_price": "79.99",
-    "thumbnail": "/assets/images/img-18"
+    "thumbnail": "/assets/images/img-19.webp"
   },
   {
     "name": "Black Running Shoes",
     "price": "120.00",
     "sale_price": "99.00",
-    "thumbnail": "/assets/images/img-19"
+    "thumbnail": "/assets/images/img-20.webp"
   },
   {
     "name": "White Cotton T-Shirt",
     "price": "24.95",
     "sale_price": "19.99",
-    "thumbnail": "/assets/images/img-20"
+    "thumbnail": "/assets/images/img-21.webp"
   },
   {
     "name": "Grey Sweatpants",
     "price": "45.00",
     "sale_price": "39.00",
-    "thumbnail": "/assets/images/img-21"
+    "thumbnail": "/assets/images/img-20.webp"
   },
   {
     "name": "Red High-Top Sneakers",
     "price": "150.00",
     "sale_price": "135.00",
-    "thumbnail": "/assets/images/img-22"
+    "thumbnail": "/assets/images/img-17.webp"
   },
   {
     "name": "Blue Denim Jacket",
     "price": "99.99",
     "sale_price": "85.00",
-    "thumbnail": "/assets/images/img-23"
+    "thumbnail": "/assets/images/img-19.webp"
   },
   {
     "name": "Olive Green Cargo Pants",
     "price": "64.50",
     "sale_price": "55.00",
-    "thumbnail": "/assets/images/img-24"
+    "thumbnail": "/assets/images/img-20.webp"
   },
   {
     "name": "Beige Bucket Hat",
     "price": "29.99",
     "sale_price": "24.99",
-    "thumbnail": "/assets/images/img-25"
+    "thumbnail": "/assets/images/img-21.webp"
   },
   {
     "name": "Classic Leather Belt",
     "price": "39.95",
     "sale_price": "32.50",
-    "thumbnail": "/assets/images/img-26"
+    "thumbnail": "/assets/images/img-20.webp"
   }
 ]
