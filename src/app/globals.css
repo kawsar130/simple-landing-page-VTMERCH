@@ -17,6 +17,12 @@
   box-shadow: 6px 6px 12px 0px #2f2f2f05;
 }
 
+.primary-text-gradient {
+  background: linear-gradient(180deg, #de2a2f 0%, #ef5256 100%);
+  background-clip: text;
+  color: transparent;
+}
+
 @layer base {
   h1 {
     @apply text-2xl;
@@ -29,6 +35,10 @@
 @layer components {
   .section-container {
     @apply px-[148px] py-[101px];
+  }
+
+  .btn-primary {
+    @apply flex w-fit items-center rounded-xl bg-tertiary-light px-8 py-4 font-medium text-secondary-dark;
   }
 }
 

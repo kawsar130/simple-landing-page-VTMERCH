@@ -1,5 +1,6 @@
 import BannerWithProducts from "./components/BannerWithProducts";
 import BestSellingProducts from "./components/BestSellingProducts";
+import BookCollections from "./components/BookCollections";
 import Header from "./components/Header";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <BannerWithProducts />
       <BestSellingProducts />
+      <BookCollections />
     </main>
   );
 }
