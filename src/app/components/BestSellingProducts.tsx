@@ -22,7 +22,7 @@ const BestSellingProducts = () => {
   }, []);
 
   return (
-    <section className="section-container bg-tertiary h-[877px] space-y-12">
+    <section className="section-container h-[877px] space-y-12 bg-tertiary py-[101px]">
       {/* Section Heading */}
       <h2 className="font-title text-[70px] font-semibold uppercase leading-[84px] tracking-[3px] text-secondary">
         Buy 1 Get 1 Free <br /> On{" "}

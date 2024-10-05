@@ -18,6 +18,7 @@ const config: Config = {
           DEFAULT: "#EA2127",
         },
         secondary: {
+          light: "#222222",
           DEFAULT: "#111111",
           dark: "#000000",
         },

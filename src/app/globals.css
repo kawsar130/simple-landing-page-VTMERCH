@@ -38,11 +38,11 @@
 
 @layer components {
   .section-container {
-    @apply px-[148px] py-[101px];
+    @apply px-[148px];
   }
 
   .btn-primary {
-    @apply flex w-fit items-center rounded-xl bg-tertiary-light px-8 py-4 font-medium text-secondary-dark;
+    @apply flex w-fit items-center justify-center rounded-xl bg-tertiary-light px-8 py-4 font-medium uppercase text-secondary-dark;
   }
 }
 
