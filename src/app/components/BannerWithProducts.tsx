@@ -1,7 +1,7 @@
 "use client";
 
 import Slider from "react-slick";
-import ProductCard from "./ProductCard";
+import ProductCard_1 from "./cards/ProductCard_1";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -38,7 +38,7 @@ const BannerWithProducts = () => {
       </p>
 
       {/* Products */}
-      <div className="w-full">
+      <div className="w-full overflow-hidden">
         <div className="w-[1920px]">
           {/* Carousel */}
 
@@ -46,7 +46,7 @@ const BannerWithProducts = () => {
             <Slider {...settings}>
               {products.length > 0 &&
                 products.map((product, index) => (
-                  <ProductCard key={index} product={product} />
+                  <ProductCard_1 key={index} product={product} />
                 ))}
             </Slider>
           </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Army Green Active Short Sleeve",
+    "price": "34.95",
+    "sale_price": "30.50",
+    "thumbnail": "/assets/images/img-6.webp"
+  },
+  {
+    "name": "Navy Blue Sports Jacket",
+    "price": "89.99",
+    "sale_price": "79.99",
+    "thumbnail": "/assets/images/img-10.webp"
+  },
+  {
+    "name": "Black Running Shoes",
+    "price": "120.00",
+    "sale_price": "99.00",
+    "thumbnail": "/assets/images/img-12.webp"
+  },
+  {
+    "name": "White Cotton T-Shirt",
+    "price": "24.95",
+    "sale_price": "19.99",
+    "thumbnail": "/assets/images/img-18.webp"
+  }
+]

@@ -21,14 +21,16 @@ const config: Config = {
           DEFAULT: "#111111",
           dark: "#000000",
         },
-        bright: {
+        tertiary: {
           DEFAULT: "#F6F5F5",
+          light: "#FFFFFF",
         },
         typo: {
           primary: "#EF5256",
           "primary-dark": "#DE2A2F",
           secondary: "#060606",
-          bright: "#FFFFFF",
+          tertiary: "#FFFFFF",
+          disabled: "#9B9B9B",
         },
       },
     },

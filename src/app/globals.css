@@ -2,8 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.outlined-text {
+  @apply text-tertiary;
+  /* -webkit-text-stroke: 1px #060606; */
+  text-shadow:
+    1px 1px 0 #060606,
+    -1px -1px 0 #060606,
+    1px -1px 0 #060606,
+    -1px 1px 0 #060606,
+    1px 1px 0 #060606;
+}
+
+.card-shadow {
+  box-shadow: 6px 6px 12px 0px #2f2f2f05;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply px-[148px] py-[101px];
+  }
 }
 
 @layer utilities {

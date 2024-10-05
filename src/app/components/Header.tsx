@@ -18,13 +18,13 @@ const Navbar = () => {
           </div>
 
           {/* Toggle Menu */}
-          <span className="font-title text-[112px] font-extrabold leading-[134px] tracking-[12px] text-typo-bright">
+          <span className="text-typo-tertiary font-title text-[112px] font-extrabold leading-[134px] tracking-[12px]">
             VTMERCH
           </span>
         </Link>
 
         <div className="cursor-pointer pr-[125px]">
-          <IoIosMenu className="text-6xl text-typo-bright" />
+          <IoIosMenu className="text-typo-tertiary text-6xl" />
         </div>
       </nav>
     </header>
