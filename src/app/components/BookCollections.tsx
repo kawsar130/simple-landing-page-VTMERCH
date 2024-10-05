@@ -23,6 +23,7 @@ const BookCollections = () => {
           </button>
         </div>
 
+        {/* Signature */}
         <div className="relative -left-8 mt-8 h-[233px] w-[754px]">
           <Image
             src="/assets/images/pat-signature-white.webp"
@@ -35,7 +36,7 @@ const BookCollections = () => {
       </div>
 
       {/* Book Images */}
-      <div className="flex h-[588px] gap-6">
+      <div className="-mt-8 flex h-[588px] gap-6">
         <div className="relative h-full w-[370px]">
           <Image
             src="/assets/images/img-22.webp"

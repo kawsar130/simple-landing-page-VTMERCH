@@ -23,6 +23,10 @@
   color: transparent;
 }
 
+.primary-background-gradient {
+  background: linear-gradient(90deg, #ec3339 0%, #bb1117 100%);
+}
+
 @layer base {
   h1 {
     @apply text-2xl;
